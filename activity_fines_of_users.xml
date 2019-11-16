@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".finesOfUsers">
+
+
+
+    <TextView
+        android:id="@+id/fine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="FINE"
+        android:textSize="15pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="The user has a fine"
+        android:textSize="9pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fine1" />
+
+    <LinearLayout
+        android:id="@+id/linearLayut2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.419">
+
+        <TextView
+            android:id="@+id/texname6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texpnumber6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone No:"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texmail6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email:"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texresidence6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Residence:"
+            android:textSize="10pt" />
+
+
+        <TextView
+            android:id="@+id/texdura6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration:"
+            android:textSize="10pt" />
+
+
+        <TextView
+            android:id="@+id/texpaymeth6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time taken"
+            android:textSize="10pt" />
+
+
+        <TextView
+            android:id="@+id/texret6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time of return:"
+            android:textSize="10pt" />
+
+
+        <TextView
+            android:id="@+id/texex6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Excess time:"
+            android:background="#00ffff"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texcash6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            android:text="Fine Cash:"
+            android:textSize="10pt" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toEndOf="@+id/linearLayut2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.421">
+
+        <TextView
+            android:id="@+id/texname55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texpnumber55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texmail55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texresidence55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texdura55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/textimetaken55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/textimereturn55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texex55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            android:textSize="10pt" />
+
+        <TextView
+            android:id="@+id/texfine55"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ffff"
+            android:textSize="10pt" />
+
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Clear"
+        android:textAllCaps="false"
+        android:onClick="clearfine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        app:layout_constraintVertical_bias="0.905" />
+
+</android.support.constraint.ConstraintLayout>
